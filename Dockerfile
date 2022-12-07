@@ -1,5 +1,4 @@
 FROM openjdk:8-jdk-alpine
-# Environment Variable that defines the endpoint of sentiment-analysis python api.
 ENV SA_LOGIC_API_URL http://localhost:5000
 EXPOSE 8080
 WORKDIR /usr/app
