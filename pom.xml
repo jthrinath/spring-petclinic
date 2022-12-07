@@ -13,6 +13,8 @@
   <name>petclinic</name>
 
   <properties>
+    
+    <skipTests>true</skipTests>
 
     <!-- Generic properties -->
     <java.version>1.8</java.version>
@@ -131,6 +133,9 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-checkstyle-plugin</artifactId>
         <version>3.1.2</version>
+        <configuration>
+          <skipTests>${skipTests}</skipTests>
+        </configuration>
         <dependencies>
           <dependency>
             <groupId>com.puppycrawl.tools</groupId>
