@@ -240,13 +240,11 @@
 			<id>spring-petclinic-release</id>
 			<name>spring-petclinic-release</name>
 			<url>http://172.31.2.14/repository/spring-petclinic-release/</url>
-                         <url>http://172.31.13.155/repository/spring-petclinic-release/</url>
 		</repository>
 		<snapshotRepository>
 			<id>spring-petclinic-snapshot</id>
 			<name>spring-petclinic-snapshot</name>
 			<url>http://172.31.2.14/repository/spring-petclinic-snapshot/</url>
-                         <url>http://172.31.13.155/repository/spring-petclinic-snapshot/</url>
 		</snapshotRepository>
   </distributionManagement>
 
